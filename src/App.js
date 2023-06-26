@@ -1,4 +1,5 @@
 import StatsBlock from './components/StatsBlock';
+import HitPoints from './components/HitPoints';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
        
       </header>
       <main>
+        <HitPoints starting= {10} />
         <StatsBlock />
       </main>
     </div>
