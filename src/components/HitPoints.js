@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './HitPoints.css';
 
 class HitPoints extends Component {
     constructor(props) {
